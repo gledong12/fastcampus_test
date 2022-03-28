@@ -26,7 +26,11 @@ SECRET_KEY = 'django-insecure-e(*-i0^lyd*24!q=qba2ikh1_@)$2$7&qp91!0(r^)snd6qlai
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-54-180-132-138.ap-northeast-2.compute.amazonaws.com', '*']
+ALLOWED_HOSTS = [
+    'ec2-54-180-132-138.ap-northeast-2.compute.amazonaws.com',
+    'fastcampus-ELB-1978763156.ap-northeast-2.elb.amazonaws.com', 
+    '*'
+    ]
 
 
 # Application definition
